@@ -41,9 +41,11 @@
     <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: darkblue;">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">Ankur Kundan Bansal</a>
+
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
+        
         <div class="collapse navbar-collapse" id="navbarText">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
@@ -66,6 +68,67 @@
     <h1>Hello, here is my website!</h1>
 
     <p>Here is some content.</p>
+
+      
+      <!--
+
+        RESPONSIVE GRID OF CARDS
+
+        SEE:
+
+            https://getbootstrap.com/docs/5.0/layout/grid/
+
+            https://getbootstrap.com/docs/5.0/components/card/
+
+            https://getbootstrap.com/docs/5.0/components/card/#grid-cards
+
+      -->
+
+      <div class="row row-cols-4">
+
+        <div class="card col" style="width: 25rem; margin:20px;">
+            <img src="Images/superfood_smoothies.jpeg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title"><a href="personal_info.html">Personal Information</a></h5>
+                <p class="card-text">Ankur's personal details, including height, weight, address, etc.</p>
+            </div>
+        </div>
+
+        <div class="card col" style="width: 25rem; margin:20px;">
+            <img src="Images/education_background.jpeg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title"><a href="educ_backg.html">Education Background</a></h5>
+                <p class="card-text">Ankur's undergraduate and graduate programs.</p>
+            </div>
+        </div>
+
+        <div class="card col" style="width: 25rem; margin:20px;">
+            <img src="Images/professional_experience.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title"><a href="prof_exp.html">Professional Experience</a></h5>
+                <p class="card-text">Ankur's detailed work experience to date.</p>
+            </div>
+        </div>
+
+        <div class="card col" style="width: 25rem; margin:20px;">
+          <img src="Images/superfood_smoothies.jpeg" class="card-img-top" alt="...">
+          <div class="card-body">
+              <h5 class="card-title"><a href="personal_int_hob.html">Personal Interests and Hobbies</a></h5>
+              <p class="card-text">Ankur's personal interests, hobbies, and passions.</p>
+          </div>
+      </div>
+
+      
+      <div class="card col" style="width: 25rem; margin:20px;">
+        <img src="Images/superfood_smoothies.jpeg" class="card-img-top" alt="...">
+        <div class="card-body">
+            <h5 class="card-title"><a href="photo_gallery.html">Photo Gallery</a></h5>
+            <p class="card-text">Collection of Ankur's select photos.</p>
+        </div>
+    </div>
+
+    </div>
+
 
 
   </body>
