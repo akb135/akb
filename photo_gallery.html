@@ -13,6 +13,27 @@
   gtag('config', 'G-74W9FBRCFF');
 </script>
 
+<style>
+    body {
+        background-image: url('images/ankur_headshot1.jpg');
+        background-repeat: repeat;
+        background-size: 348px 348px;
+        background-attachment: fixed;
+        position: relative;
+    }
+
+    body::before {
+        content: "";
+        background-color: rgba(255, 255, 255, 0.85); /* Semi-transparent white */
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        z-index: -1; /* Place the overlay behind the content */
+    }
+</style>
+
 
     <!-- Required meta tags -->
     <meta charset="utf-8">
@@ -38,11 +59,11 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
     -->
 
-    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: darkblue;">
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="background-color: darkblue;">
       <div class="container-fluid">
         <a class="navbar-brand" href="index.html">Ankur Kundan Bansal</a>
 
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         
@@ -80,14 +101,14 @@
       </div>
     </nav>
 
-    <h1 style="margin-top: 30px; margin-bottom: 30px; margin-left: 20px;">Photo Gallery:</h1>
-    <h2 style="font-style: italic; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; margin-top: 30px; margin-bottom: 30px; margin-left: 20px;">
+    <p>.</p>
+    <h1 style="margin-top: 50px; margin-bottom: 30px; margin-left: 20px;">Photo Gallery:</h1>
+    <h2 style="font-size: 20px; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; margin-top: 30px; margin-bottom: 30px; margin-left: 20px;">
       (Select pictures of Ankur.)
     </h2>
     <p>
       
     </p>
-    <img style="border: 1px solid; margin-left: 20px; margin-bottom: 40px; width: 15%; height: auto;" src="images/ankur_headshot1.jpg" alt="Ankur's Headshot" />
 
       
       <!--
@@ -107,45 +128,53 @@
       <div class="row row-cols-5">
 
         <div class="card col" style="width: 25rem; margin:20px;">
-            <img src="images/personal_info.jpeg" class="card-img-top" alt="...">
+            <img src="images/gallery_01b.jpg" class="card-img-top" alt="...">
             <div class="card-body">
-                <h5 class="card-title"><a href="personal_info.html">Personal Information</a></h5>
-                <p class="card-text">Ankur's personal details, including height, weight, address, etc.</p>
+                <h5 class="card-title"><a>Flying to Boston to attend HBS PE/VC Conference</a></h5>
+                <p class="card-text">Feb 2023</p>
             </div>
         </div>
 
         <div class="card col" style="width: 25rem; margin:20px;">
-            <img src="images/education_background.jpeg" class="card-img-top" alt="...">
+            <img src="images/gallery_02.jpg" class="card-img-top" alt="...">
             <div class="card-body">
-                <h5 class="card-title"><a href="educ_backg.html">Education Background</a></h5>
-                <p class="card-text">Ankur's undergraduate and graduate programs.</p>
+                <h5 class="card-title"><a>At HBS's PE/VC Conference</a></h5>
+                <p class="card-text">Feb 2023</p>
             </div>
         </div>
 
         <div class="card col" style="width: 25rem; margin:20px;">
-            <img src="images/professional_experience.jpg" class="card-img-top" alt="...">
+            <img src="images/gallery_03.jpg" class="card-img-top" alt="...">
             <div class="card-body">
-                <h5 class="card-title"><a href="prof_exp.html">Professional Experience</a></h5>
-                <p class="card-text">Ankur's detailed work experience to date.</p>
+                <h5 class="card-title"><a>With my Gray cohort classmates</a></h5>
+                <p class="card-text">Nov 2022</p>
             </div>
         </div>
 
         <div class="card col" style="width: 25rem; margin:20px;">
-          <img src="images/personal_int_hobbies.jpeg" class="card-img-top" alt="...">
+          <img src="images/gallery_04.jpg" class="card-img-top" alt="...">
           <div class="card-body">
-              <h5 class="card-title"><a href="personal_int_hob.html">Personal Interests and Hobbies</a></h5>
-              <p class="card-text">Ankur's personal interests, hobbies, and passions.</p>
+              <h5 class="card-title"><a>My Fall Semeester Study Group mates</a></h5>
+              <p class="card-text">Nov 2022</p>
           </div>
         </div>
 
         <div class="card col" style="width: 25rem; margin:20px;">
-          <img src="images/photo_gallery.jpg" class="card-img-top" alt="...">
+          <img src="images/gallery_05.jpg" class="card-img-top" alt="...">
           <div class="card-body">
-            <h5 class="card-title"><a href="photo_gallery.html">Photo Gallery</a></h5>
-            <p class="card-text">Collection of Ankur's select photos.</p>
+            <h5 class="card-title"><a>At a Finance Club get together in DC</a></h5>
+            <p class="card-text">Mar 2023</p>
           </div>
         </div>
 
+        <div class="card col" style="width: 25rem; margin:20px;">
+            <img src="images/gallery_06.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title"><a>Hanging out with Family</a></h5>
+              <p class="card-text">Dec 2022</p>
+            </div>
+          </div>
+  
       </div>
 
 
@@ -153,6 +182,7 @@
       <hr>
       &copy; Ankur Kundan Bansal 2024 |
       <a href="index.html">Home</a>
+      <p style="margin-top: 20px;">.</p>
     </footer>
   
 
