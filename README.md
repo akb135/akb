@@ -2,9 +2,10 @@ ANKUR's PERSONAL PORTFOLIO Website --
 
 Objectives behind developing this portal: 
 
-• Create a personal portfolio website to showcase various aspects of Ankur’s life and experiences. 
-• Provide accurate and well-structured information about Ankur. 
-• Offer a platform for sharing personal blogs and engaging with site visitors. 
+•	Create a personal portfolio website to showcase various aspects of Ankur’s life and experiences. 
+•	Provide accurate and well-structured information about Ankur. 
+•	Offer a platform for sharing personal blogs and engaging with site visitors. 
+
 
 Target Audience: 
 
